@@ -29,4 +29,8 @@ public class UnidadMedidaDatos {
 	public UnidadMedida obtenerPorId(Long id) {
 		return (UnidadMedida) sessionFactory.getCurrentSession().get(UnidadMedida.class, id);
 	}
+
+	public void eliminar(UnidadMedida unidad) {
+		sessionFactory.getCurrentSession().delete(unidad);
+	}
 }

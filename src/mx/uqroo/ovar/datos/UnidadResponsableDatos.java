@@ -29,4 +29,8 @@ public class UnidadResponsableDatos {
 	public UnidadResponsable obtenerPorId(Long id) {
 		return (UnidadResponsable) sessionFactory.getCurrentSession().get(UnidadResponsable.class, id);
 	}
+
+	public void eliminar(UnidadResponsable unidad) {
+		sessionFactory.getCurrentSession().delete(unidad);
+	}
 }

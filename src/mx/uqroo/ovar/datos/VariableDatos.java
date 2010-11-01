@@ -29,4 +29,8 @@ public class VariableDatos {
 	public Variable obtenerPorId(Long id) {
 		return (Variable) sessionFactory.getCurrentSession().get(Variable.class, id);
 	}
+
+	public void eliminar(Variable variable) {
+		sessionFactory.getCurrentSession().delete(variable);
+	}
 }

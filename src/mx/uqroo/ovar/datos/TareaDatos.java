@@ -29,4 +29,8 @@ public class TareaDatos {
 	public Tarea obtenerPorId(Long id) {
 		return (Tarea) sessionFactory.getCurrentSession().get(Tarea.class, id);
 	}
+
+	public void eliminar(Tarea tarea) {
+		sessionFactory.getCurrentSession().delete(tarea);
+	}
 }

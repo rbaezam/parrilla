@@ -29,4 +29,8 @@ public class ObjetivoDatos {
 	public Objetivo obtenerPorId(Long id) {
 		return (Objetivo) sessionFactory.getCurrentSession().get(Objetivo.class, id);
 	}
+
+	public void eliminar(Objetivo objetivo) {
+		sessionFactory.getCurrentSession().delete(objetivo);
+	}
 }

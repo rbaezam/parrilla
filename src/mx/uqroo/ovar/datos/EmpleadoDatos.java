@@ -29,4 +29,8 @@ public class EmpleadoDatos {
 	public Empleado obtenerPorId(Long id) {
 		return (Empleado) sessionFactory.getCurrentSession().get(Empleado.class, id);
 	}
+
+	public void eliminar(Empleado empleado) {
+		sessionFactory.getCurrentSession().delete(empleado);
+	}
 }

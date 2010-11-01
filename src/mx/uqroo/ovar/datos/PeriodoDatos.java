@@ -29,4 +29,8 @@ public class PeriodoDatos {
 	public Periodo obtenerPorId(Long id) {
 		return (Periodo) sessionFactory.getCurrentSession().get(Periodo.class, id);
 	}
+
+	public void eliminar(Periodo periodo) {
+		sessionFactory.getCurrentSession().delete(periodo);
+	}
 }
