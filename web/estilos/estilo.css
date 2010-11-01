@@ -1,0 +1,93 @@
+body {
+	font-family: Tahoma;
+	color: black;
+	background-color: #dedfff;
+}
+
+h1,h2,h3,h4,h5 {
+	margin: 2px;
+}
+
+div#pagina {
+	width: 95%;
+	border: 1px solid gray;
+	margin: 0 auto;
+	background-color: #fefefe;
+}
+
+div#encabezado {
+	background-color: #225730;
+	color: #fefffe;
+	margin: 0px;
+	border: 1px solid #114620;
+	width: 100%;
+}
+
+div#centro {
+	width: 100%;
+	margin: 0;
+	display: table;
+}
+
+div#menu {
+	padding: 5px;
+	margin: 0px;
+	float: left;
+	display: table-cell;
+	background-color: #98fd87;
+}
+
+div#menu ul {
+	list-style-type: none;
+	margin: 5px 0 0 0;
+	padding-left: 0;
+}
+
+div#menu ul li {
+	margin-left: 10px;
+}
+
+div#menu ul li a {
+	color: #226736;
+	text-decoration: none;
+	font-size: 14px;
+	padding: 2px 5px;
+}
+
+div#menu ul li a:hover {
+	color: #fefefe;
+	background-color: #336736;
+}
+
+div#contenido {
+	float: left;
+	display: table-cell;
+	padding: 5px;
+}
+
+div#div_admin_titulo {
+	width: 60%;
+	margin: 0 auto;
+	height: 30px;
+}
+
+fieldset.fs_opcion {
+	width: 60%;
+	height: 100px;
+	margin: 0 auto;
+}
+
+fieldset.fs_opcion legend {
+	font-weight: bold;
+}
+
+fieldset.fs_opcion ul {
+	list-style-type: none;
+	margin: 0 auto;
+	padding-left: 0;
+}
+
+fieldset.fs_opcion ul li {
+	display: inline;
+	margin: 5px 20px;
+}

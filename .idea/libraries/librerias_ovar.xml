@@ -1,0 +1,41 @@
+<component name="libraryTable">
+  <library name="librerias ovar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/commons-logging.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/dom4j.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-logging_2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-logging_1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/aopalliance.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/antlr.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cglib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-aspects.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-asm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-context.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-beans.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate-annotations.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-aop.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javaee.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/sitemesh-2.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/standard.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.10-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jta-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jstl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ejb3-persistence.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-instrument.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-jdbc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-expression.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-oxm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-tx.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-jms.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-orm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-web.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-webmvc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
