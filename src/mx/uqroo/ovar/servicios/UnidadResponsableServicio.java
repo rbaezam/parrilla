@@ -33,4 +33,15 @@ public class UnidadResponsableServicio {
 	public UnidadResponsable obtenerPorId(Long id) {
 		return unidadResponsableDatos.obtenerPorId(id);
 	}
+
+	@Transactional(propagation = Propagation.REQUIRED, readOnly = false)
+	public void eliminar(UnidadResponsable unidad) {
+		unidadResponsableDatos.eliminar(unidad);
+	}
+
+	@Transactional(propagation = Propagation.REQUIRED, readOnly = false)
+	public void eliminar(long id) {
+		UnidadResponsable unidad = unidadResponsableDatos.obtenerPorId(id);
+		eliminar(unidad);
+	}
 }

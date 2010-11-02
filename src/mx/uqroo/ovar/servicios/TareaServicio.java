@@ -33,4 +33,15 @@ public class TareaServicio {
 	public Tarea obtenerPorId(Long id) {
 		return tareaDatos.obtenerPorId(id);
 	}
+
+	@Transactional(propagation = Propagation.REQUIRED, readOnly = false)
+	public void eliminar(Tarea tarea) {
+		tareaDatos.eliminar(tarea);
+	}
+
+	@Transactional(propagation = Propagation.REQUIRED, readOnly = false)
+	public void eliminar(long id) {
+		Tarea tarea = tareaDatos.obtenerPorId(id);
+		eliminar(tarea);
+	}
 }

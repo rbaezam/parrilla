@@ -33,4 +33,15 @@ public class ObjetivoServicio {
 	public Objetivo obtenerPorId(Long id) {
 		return objetivoDatos.obtenerPorId(id);
 	}
+
+	@Transactional(propagation = Propagation.REQUIRED, readOnly = false)
+	public void eliminar(Objetivo objetivo) {
+		objetivoDatos.eliminar(objetivo);
+	}
+
+	@Transactional(propagation = Propagation.REQUIRED, readOnly = false)
+	public void eliminar(long id) {
+		Objetivo objetivo = objetivoDatos.obtenerPorId(id);
+		objetivoDatos.eliminar(objetivo);
+	}
 }

@@ -33,4 +33,15 @@ public class VariableServicio {
 	public Variable obtenerPorId(Long id) {
 		return variableDatos.obtenerPorId(id);
 	}
+
+	@Transactional(propagation = Propagation.REQUIRED, readOnly = false)
+	public void eliminar(Variable variable) {
+		variableDatos.eliminar(variable);
+	}
+
+	@Transactional(propagation = Propagation.REQUIRED, readOnly = false)
+	public void eliminar(long id) {
+		Variable variable = variableDatos.obtenerPorId(id);
+		eliminar(variable);
+	}
 }

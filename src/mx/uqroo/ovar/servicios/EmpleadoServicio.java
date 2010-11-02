@@ -33,4 +33,15 @@ public class EmpleadoServicio {
 	public Empleado obtenerPorId(Long id) {
 		return empleadoDatos.obtenerPorId(id);
 	}
+
+	@Transactional(propagation = Propagation.REQUIRED, readOnly = false)
+	public void eliminar(Empleado empleado) {
+		empleadoDatos.eliminar(empleado);
+	}
+
+	@Transactional(propagation = Propagation.REQUIRED, readOnly = false)
+	public void eliminar(long id) {
+		Empleado empleado = empleadoDatos.obtenerPorId(id);
+		empleadoDatos.eliminar(empleado);
+	}
 }

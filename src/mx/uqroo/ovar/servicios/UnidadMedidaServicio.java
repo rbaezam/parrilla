@@ -33,4 +33,15 @@ public class UnidadMedidaServicio {
 	public UnidadMedida obtenerPorId(Long id) {
 		return unidadMedidaDatos.obtenerPorId(id);
 	}
+
+	@Transactional(propagation = Propagation.REQUIRED, readOnly = false)
+	public void eliminar(UnidadMedida unidad) {
+		unidadMedidaDatos.eliminar(unidad);
+	}
+
+	@Transactional(propagation = Propagation.REQUIRED, readOnly = false)
+	public void eliminar(long id) {
+		UnidadMedida unidad = unidadMedidaDatos.obtenerPorId(id);
+		eliminar(unidad);
+	}
 }

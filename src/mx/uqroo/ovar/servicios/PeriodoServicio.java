@@ -33,4 +33,15 @@ public class PeriodoServicio {
 	public Periodo obtenerPorId(Long id) {
 		return periodoDatos.obtenerPorId(id);
 	}
+
+	@Transactional(propagation = Propagation.REQUIRED, readOnly = false)
+	public void eliminar(Periodo periodo) {
+		periodoDatos.eliminar(periodo);
+	}
+
+	@Transactional(propagation = Propagation.REQUIRED, readOnly = false)
+	public void eliminar(long id) {
+		Periodo periodo = periodoDatos.obtenerPorId(id);
+		eliminar(periodo);
+	}
 }
