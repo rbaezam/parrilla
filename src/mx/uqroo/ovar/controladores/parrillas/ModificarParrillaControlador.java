@@ -1,6 +1,7 @@
 package mx.uqroo.ovar.controladores.parrillas;
 
 import mx.uqroo.ovar.dominio.*;
+import mx.uqroo.ovar.servicios.EmpleadoServicio;
 import mx.uqroo.ovar.servicios.ParrillaServicio;
 import mx.uqroo.ovar.servicios.PeriodoServicio;
 import mx.uqroo.ovar.servicios.UnidadResponsableServicio;
@@ -31,6 +32,9 @@ public class ModificarParrillaControlador {
 	@Autowired
 	private PeriodoServicio periodoServicio;
 
+	@Autowired
+	private EmpleadoServicio empleadoServicio;
+
 	@ModelAttribute("unidadesResponsables")
 	public List<UnidadResponsable> llenarComboUnidades() {
 		return unidadResponsableServicio.obtenerTodos();
@@ -41,10 +45,15 @@ public class ModificarParrillaControlador {
 		return periodoServicio.obtenerTodos();
 	}
 
+	@ModelAttribute("empleados")
+	public List<Empleado> llenarComboEmpleados() {
+		return empleadoServicio.obtenerTodos();
+	}
 	@InitBinder
 	public void initBinder(WebDataBinder binder) {
 		binder.registerCustomEditor(UnidadResponsable.class, new UnidadResponsableEditor(unidadResponsableServicio));
 		binder.registerCustomEditor(Periodo.class, new PeriodoEditor(periodoServicio));
+		binder.registerCustomEditor(Empleado.class, new EmpleadoEditor(empleadoServicio));
 	}
 
 	@RequestMapping(method = RequestMethod.GET)

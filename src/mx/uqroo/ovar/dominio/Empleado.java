@@ -15,7 +15,7 @@ public class Empleado {
 	private Long id;
 	private String nombre;
 	private String puesto;
-	@ManyToOne
+	@ManyToOne(optional = true)
 	private UnidadResponsable unidad;
 
 	public Long getId() {

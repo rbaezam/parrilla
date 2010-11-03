@@ -1,15 +1,18 @@
 package mx.uqroo.ovar.controladores.unidadesresponsables;
 
+import mx.uqroo.ovar.dominio.Empleado;
+import mx.uqroo.ovar.dominio.EmpleadoEditor;
 import mx.uqroo.ovar.dominio.UnidadResponsable;
+import mx.uqroo.ovar.servicios.EmpleadoServicio;
 import mx.uqroo.ovar.servicios.UnidadResponsableServicio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.WebDataBinder;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 /**
  * Usuario: Rodolfo E. Baeza Madrid

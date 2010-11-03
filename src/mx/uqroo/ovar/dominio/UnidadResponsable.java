@@ -1,8 +1,9 @@
 package mx.uqroo.ovar.dominio;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import org.hibernate.annotations.Cascade;
+import org.hibernate.annotations.CascadeType;
+
+import javax.persistence.*;
 
 /**
  * Created by IntelliJ IDEA.

@@ -19,6 +19,8 @@ public class Parrilla {
 	private Periodo periodo;
 	@ManyToOne
 	private UnidadResponsable unidad;
+	@ManyToOne
+	private Empleado responsable;
 
 	public Long getId() {
 		return id;
@@ -42,5 +44,13 @@ public class Parrilla {
 
 	public void setUnidad(UnidadResponsable unidad) {
 		this.unidad = unidad;
+	}
+
+	public Empleado getResponsable() {
+		return responsable;
+	}
+
+	public void setResponsable(Empleado responsable) {
+		this.responsable = responsable;
 	}
 }

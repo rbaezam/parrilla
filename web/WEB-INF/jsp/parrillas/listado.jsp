@@ -32,6 +32,7 @@
 			<tr>
 				<th>Periodo</th>
 				<th>Unidad Responsable</th>
+				<th>Responsable</th>
 				<th>&nbsp;</th>
 			</tr>
 			<c:forEach items="${parrillas}" var="parrilla">
@@ -41,6 +42,9 @@
 					</td>
 					<td>
 						${parrilla.unidad.nombre}
+					</td>
+					<td>
+						${parrilla.responsable.nombre}
 					</td>
 					<td>
 						<a href="modificar.form?id=${parrilla.id}">Modificar</a>

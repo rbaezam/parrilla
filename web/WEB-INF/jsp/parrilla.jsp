@@ -8,8 +8,12 @@
 	<head>
 		<title>Parrilla OVAR</title>
 	</head>
-	
+
 	<body>
+
 		<h3>Parrilla OVAR</h3>
+
+		<p>${parrilla.unidad.responsable.nombre}</p>
+
 	</body>
 </html>

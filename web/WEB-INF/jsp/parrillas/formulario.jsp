@@ -28,6 +28,13 @@
 			</form:select>
 			<br/>
 
+			Responsable:
+			<form:select path="responsable.id">
+				<form:option value="--Seleccione una opción--"/>
+				<form:options items="${empleados}" itemLabel="nombre" itemValue="id"/>
+			</form:select>
+			<br/>
+
 			<input type="submit" value="Guardar"/>
 		</form:form>
 
