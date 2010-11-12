@@ -34,6 +34,8 @@
       <root url="jar://$PROJECT_DIR$/lib/spring-orm.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/spring-web.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/spring-webmvc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-core-asl-1.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-mapper-asl-1.6.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

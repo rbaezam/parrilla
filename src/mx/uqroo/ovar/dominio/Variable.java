@@ -17,7 +17,7 @@ public class Variable {
 	private String nombre;
 	@ManyToOne
 	private Objetivo objetivo;
-	@OneToMany
+	@OneToMany(cascade = CascadeType.ALL, mappedBy = "variable")
 	private List<Tarea> tareas;
 
 	public Long getId() {

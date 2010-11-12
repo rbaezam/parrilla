@@ -34,6 +34,10 @@ public class ObjetivoServicio {
 		return objetivoDatos.obtenerPorId(id);
 	}
 
+	public List<Objetivo> obtenerPorIdParrilla(Long idParrilla) {
+		return objetivoDatos.obtenerPorIdParrilla(idParrilla);
+	}
+
 	@Transactional(propagation = Propagation.REQUIRED, readOnly = false)
 	public void eliminar(Objetivo objetivo) {
 		objetivoDatos.eliminar(objetivo);

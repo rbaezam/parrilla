@@ -2,6 +2,8 @@ package mx.uqroo.ovar.datos;
 
 import mx.uqroo.ovar.dominio.Objetivo;
 import org.hibernate.SessionFactory;
+import org.hibernate.criterion.Criterion;
+import org.hibernate.criterion.Restrictions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
@@ -28,6 +30,12 @@ public class ObjetivoDatos {
 
 	public Objetivo obtenerPorId(Long id) {
 		return (Objetivo) sessionFactory.getCurrentSession().get(Objetivo.class, id);
+	}
+
+	public List<Objetivo> obtenerPorIdParrilla(Long idParrilla) {
+		List<Objetivo> lista = sessionFactory.getCurrentSession().createCriteria(Objetivo.class)
+				.add(Restrictions.eq("parrilla.id", idParrilla)).list();
+		return lista;
 	}
 
 	public void eliminar(Objetivo objetivo) {

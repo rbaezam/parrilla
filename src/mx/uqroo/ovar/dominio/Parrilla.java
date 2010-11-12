@@ -1,9 +1,11 @@
 package mx.uqroo.ovar.dominio;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import org.hibernate.annotations.CollectionOfElements;
+import org.hibernate.annotations.Fetch;
+import org.hibernate.annotations.FetchMode;
+
+import javax.persistence.*;
+import java.util.List;
 
 /**
  * Usuario: Rodolfo E. Baeza Madrid
@@ -21,6 +23,10 @@ public class Parrilla {
 	private UnidadResponsable unidad;
 	@ManyToOne
 	private Empleado responsable;
+	@OneToMany(cascade = CascadeType.ALL, mappedBy = "parrilla")
+	@Fetch(FetchMode.JOIN)
+	private List<Objetivo> objetivos;
+	private boolean valido;
 
 	public Long getId() {
 		return id;
@@ -52,5 +58,25 @@ public class Parrilla {
 
 	public void setResponsable(Empleado responsable) {
 		this.responsable = responsable;
+	}
+
+	public boolean isValido() {
+		return valido;
+	}
+
+	public void setValido(boolean valido) {
+		this.valido = valido;
+	}
+
+	public List<Objetivo> getObjetivos() {
+		return objetivos;
+	}
+
+	public void setObjetivos(List<Objetivo> objetivos) {
+		this.objetivos = objetivos;
+	}
+
+	public String getDescripcion() {
+		return String.format("%s - %s", periodo.getDescripcion(), unidad.getNombre());
 	}
 }

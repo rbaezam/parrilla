@@ -15,19 +15,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="77266fde-7eae-4126-8e63-30a6ec935ca9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/unidadesresponsables/AgregarUnidadResponsableControlador.java" afterPath="$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/unidadesresponsables/AgregarUnidadResponsableControlador.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/objetivos/formulario.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/Objetivo.java" afterPath="$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/Objetivo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jdbc.properties" afterPath="$PROJECT_DIR$/src/jdbc.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/objetivos/AgregarObjetivoControlador.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mx/uqroo/ovar/datos/ObjetivoDatos.java" afterPath="$PROJECT_DIR$/src/mx/uqroo/ovar/datos/ObjetivoDatos.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/plantillas/principal.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/plantillas/principal.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/Variable.java" afterPath="$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/Variable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mx/uqroo/ovar/servicios/ObjetivoServicio.java" afterPath="$PROJECT_DIR$/src/mx/uqroo/ovar/servicios/ObjetivoServicio.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/parrillas/AgregarParrillaControlador.java" afterPath="$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/parrillas/AgregarParrillaControlador.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/EmpleadoEditor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/parrillas/ModificarParrillaControlador.java" afterPath="$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/parrillas/ModificarParrillaControlador.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/parrillas/formulario.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/parrillas/formulario.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/parrillas/listado.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/parrillas/listado.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/UnidadResponsable.java" afterPath="$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/UnidadResponsable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/ParrillaControlador.java" afterPath="$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/ParrillaControlador.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/ParrillaEditor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/Parrilla.java" afterPath="$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/Parrilla.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/parrilla.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/parrilla.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/Empleado.java" afterPath="$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/Empleado.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/unidadesresponsables/ModificarUnidadResponsableControlador.java" afterPath="$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/unidadesresponsables/ModificarUnidadResponsableControlador.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jdbc.properties" afterPath="$PROJECT_DIR$/src/jdbc.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/librerias_ovar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/librerias_ovar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/periodos/formulario.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/periodos/formulario.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/springmvc-servlet.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/springmvc-servlet.xml" />
     </list>
     <ignored path="$USER_HOME_GRIFFON$/" />
     <ignored path="$USER_HOME_GRAILS$/" />
@@ -87,28 +91,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AgregarUnidadResponsableControlador.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/unidadesresponsables/AgregarUnidadResponsableControlador.java">
+      <file leaf-file-name="index.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="1108" selection-end="1108" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="formulario.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/parrillas/formulario.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="309" selection-end="309" vertical-scroll-proportion="-0.015873017">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModificarParrillaControlador.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/parrillas/ModificarParrillaControlador.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="0" selection-start="1775" selection-end="1775" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -133,22 +119,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/mx/uqroo/ovar/servicios/UnidadResponsableServicio.java" />
-        <option value="$PROJECT_DIR$/src/mx/uqroo/ovar/servicios/VariableServicio.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/parrilla.jsp" />
-        <option value="$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/EmpleadoEditor.java" />
+        <option value="$PROJECT_DIR$/web/scripts/date_es.js" />
+        <option value="$PROJECT_DIR$/web/estilos/datePicker.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/plantillas/principal.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/periodos/formulario.jsp" />
+        <option value="$PROJECT_DIR$/src/mx/uqroo/ovar/servicios/ObjetivoServicio.java" />
+        <option value="$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/Variable.java" />
         <option value="$PROJECT_DIR$/src/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/UnidadResponsable.java" />
-        <option value="$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/Empleado.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/springmvc-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/Objetivo.java" />
+        <option value="$PROJECT_DIR$/src/mx/uqroo/ovar/datos/ObjetivoDatos.java" />
+        <option value="$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/ParrillaControlador.java" />
         <option value="$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/Parrilla.java" />
-        <option value="$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/unidadesresponsables/AgregarUnidadResponsableControlador.java" />
-        <option value="$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/unidadesresponsables/ModificarUnidadResponsableControlador.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/unidadesresponsables/formulario.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/unidadesresponsables/listado.jsp" />
         <option value="$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/parrillas/AgregarParrillaControlador.java" />
-        <option value="$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/parrillas/ModificarParrillaControlador.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/parrillas/listado.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/parrillas/formulario.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/objetivos/formulario.jsp" />
+        <option value="$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/objetivos/AgregarObjetivoControlador.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/parrilla.jsp" />
       </list>
     </option>
   </component>
@@ -203,9 +189,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Favorites" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -292,15 +277,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="parrillas" />
+              <option name="myItemId" value="estilos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -357,6 +352,28 @@
               <option name="myItemId" value="ovar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dominio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -406,18 +423,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controladores" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="empleados" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.lookFeel" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
@@ -431,14 +475,14 @@
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="mx.uqroo.ovar.dominio" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Proyectos\uqroo\ovar\web" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="mx.uqroo.ovar.dominio" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Parrilla OVAR">
     <configuration default="false" name="ovar-web on server" type="PhpRunConfigurationType" factoryName="PHP" temporary="true" local_path="$PROJECT_DIR$/ovar-web" use_local_path="true">
       <option name="localPath" value="D:\Proyectos\uqroo\ovar\ovar-web" />
       <method />
@@ -516,7 +560,7 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="AirRunConfigurationType" factoryName="AIR" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" html_or_swf_file_path="" main_class_name="" module_name="" run_mode="HtmlOrSwfFile" url_to_launch="http://">
+    <configuration default="true" type="AirRunConfigurationType" factoryName="AIR" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" debugger_sdk="Module SDK" html_or_swf_file_path="" main_class_name="" module_name="" run_mode="HtmlOrSwfFile" url_to_launch="http://">
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -628,23 +672,7 @@
         <option name="ValidateXdebugSetup" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="SpecsRunConfiguration" factoryName="Specs">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="packagepath" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="sysFilter" value=".*" />
-      <setting name="exampleFilter" value=".*" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" class_name="" html_or_swf_file_path="" main_class_name="" method_name="" module_name="" output_log_level="" package_name="" port="0" run_mode="HtmlOrSwfFile" scope="Class" socket_policy_port="0" url_to_launch="http://">
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" class_name="" debugger_sdk="Module SDK" html_or_swf_file_path="" main_class_name="" method_name="" module_name="" output_log_level="" package_name="" port="0" run_mode="HtmlOrSwfFile" scope="Class" socket_policy_port="0" url_to_launch="http://">
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -686,21 +714,6 @@
     </configuration>
     <configuration default="true" type="GWT.ConfigurationType" factoryName="GWT Configuration">
       <module name="" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="version" value="false" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -857,22 +870,22 @@
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28246754" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2792208" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32792208" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32524273" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32792208" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25911853" sideWeight="0.6769481" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3116883" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20744681" sideWeight="0.70941556" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2792208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -890,7 +903,7 @@
     <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregar eliminar en los objetos de Servicio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Varios cambios" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -906,6 +919,7 @@
     <MESSAGE value="Subida inicial" />
     <MESSAGE value="Agregar eliminar en los objetos de Datos" />
     <MESSAGE value="Agregar eliminar en los objetos de Servicio" />
+    <MESSAGE value="Varios cambios" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -915,86 +929,99 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/empleados/ModificarEmpleadoControlador.java">
+    <entry file="file://$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/Variable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="13" selection-start="786" selection-end="786" vertical-scroll-proportion="-0.08391608" />
+        <state line="19" column="62" selection-start="366" selection-end="366" vertical-scroll-proportion="0.8073879" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/EmpleadoEditor.java">
+    <entry file="file://$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/Tarea.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="421" selection-end="421" vertical-scroll-proportion="0.6296296" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/UnidadResponsableEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="232" selection-end="232" vertical-scroll-proportion="0.09259259" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/Empleado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.16410257" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/UnidadResponsable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="416" selection-end="416" vertical-scroll-proportion="0.73846155" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/Parrilla.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="38" selection-start="850" selection-end="850" vertical-scroll-proportion="1.5743589" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/unidadesresponsables/formulario.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="409" selection-end="409" vertical-scroll-proportion="0.431694" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/unidadesresponsables/listado.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="441" selection-end="441" vertical-scroll-proportion="0.38251367" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/parrillas/ListadoParrillasControlador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.041025642" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/parrillas/AgregarParrillaControlador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="1884" selection-end="1969" vertical-scroll-proportion="0.9098592" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/unidadesresponsables/ModificarUnidadResponsableControlador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="915" selection-end="915" vertical-scroll-proportion="0.26153848" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/parrillas/listado.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="53" selection-start="953" selection-end="953" vertical-scroll-proportion="0.5415473" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/unidadesresponsables/AgregarUnidadResponsableControlador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="1108" selection-end="1108" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/parrillas/ModificarParrillaControlador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1775" selection-end="1775" vertical-scroll-proportion="0.0" />
+        <state line="19" column="0" selection-start="352" selection-end="352" vertical-scroll-proportion="0.7176781" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="29" selection-start="265" selection-end="265" vertical-scroll-proportion="0.1895093">
+        <state line="7" column="27" selection-start="263" selection-end="263" vertical-scroll-proportion="0.31398416" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/springmvc-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="977" selection-end="977" vertical-scroll-proportion="0.1278409" />
+      </provider>
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/uqroo/ovar/datos/ParrillaDatos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="43" selection-start="699" selection-end="699" vertical-scroll-proportion="0.50385606" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/uqroo/ovar/datos/ObjetivoDatos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.66580975" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/uqroo/ovar/servicios/ObjetivoServicio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="36" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.37017995" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/parrillas/AgregarParrillaControlador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="32" selection-start="2395" selection-end="2395" vertical-scroll-proportion="0.6933333" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/empleados/AgregarEmpleadoControlador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="13" selection-start="1527" selection-end="1527" vertical-scroll-proportion="0.12" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/Objetivo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="30" selection-start="356" selection-end="356" vertical-scroll-proportion="0.036585364">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/parrillas/formulario.jsp">
+    <entry file="file://$PROJECT_DIR$/src/mx/uqroo/ovar/dominio/Parrilla.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="309" selection-end="309" vertical-scroll-proportion="-0.015873017">
+        <state line="29" column="0" selection-start="656" selection-end="656" vertical-scroll-proportion="0.036585364">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/ParrillaControlador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="775" selection-end="775" vertical-scroll-proportion="0.036585364">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/uqroo/ovar/controladores/objetivos/AgregarObjetivoControlador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="5" selection-start="1878" selection-end="1878" vertical-scroll-proportion="0.70731705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/objetivos/formulario.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="70" selection-start="411" selection-end="411" vertical-scroll-proportion="0.34108528">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/parrilla.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="42" selection-start="2061" selection-end="2061" vertical-scroll-proportion="0.68475455">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1017,10 +1044,10 @@
           <last-edited>ovar-web:Web exploded</last-edited>
           <settings>
             <show-content>
-              <type id="javaee-facet-resources" />
               <type id="artifact" />
-              <type id="jpa-descriptors" />
+              <type id="javaee-facet-resources" />
               <type id="library" />
+              <type id="jpa-descriptors" />
             </show-content>
           </settings>
         </UIState>

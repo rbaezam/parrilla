@@ -9,7 +9,11 @@
 	<head>
 		<title>Parrilla O.V.A.R. - <decorator:title/></title>
 		<link type="text/css" rel="stylesheet" href="/estilos/estilo.css"/>
+		<link type="text/css" rel="stylesheet" href="/estilos/ui-lightness/jquery-ui-1.8.6.custom.css"/>
 		<script type="text/javascript" src="/scripts/jquery-1.4.3.min.js"></script>
+		<script type="text/javascript" src="/scripts/jquery-ui-1.8.6.custom.min.js"></script>
+		<script type="text/javascript" src="/scripts/jquery.ui.datepicker-es.js"></script>
+		<decorator:head/>
 	</head>
 	
 	<body>

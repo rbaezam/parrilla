@@ -8,9 +8,16 @@
 <html>
 	<head>
 		<title>${titulo}</title>
+		<script type="text/javascript" language="JavaScript">
+			$(function() {
+				$("#fechaInicio").datepicker();
+				$("#fechaFin").datepicker();
+			});
+		</script>
 	</head>
 	
 	<body>
+
 		<h3>${titulo}</h3>
 
 		<form:form method="post" modelAttribute="periodo">

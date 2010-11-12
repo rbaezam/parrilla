@@ -1,5 +1,7 @@
 package mx.uqroo.ovar.dominio;
 
+import org.codehaus.jackson.annotate.JsonIgnore;
+
 import javax.persistence.*;
 import java.util.List;
 
@@ -17,7 +19,7 @@ public class Objetivo {
 	private String nombre;
 	@ManyToOne
 	private Parrilla parrilla;
-	@OneToMany
+	@OneToMany(cascade = CascadeType.ALL, mappedBy = "objetivo")
 	private List<Variable> variables;
 
 	public Long getId() {
@@ -36,6 +38,7 @@ public class Objetivo {
 		this.nombre = nombre;
 	}
 
+	@JsonIgnore
 	public Parrilla getParrilla() {
 		return parrilla;
 	}
@@ -44,6 +47,7 @@ public class Objetivo {
 		this.parrilla = parrilla;
 	}
 
+	@JsonIgnore
 	public List<Variable> getVariables() {
 		return variables;
 	}

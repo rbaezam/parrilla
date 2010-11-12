@@ -73,6 +73,7 @@ public class AgregarParrillaControlador {
 
 	@RequestMapping(method = RequestMethod.POST)
 	public String submitForm(@ModelAttribute Parrilla parrilla, BindingResult resultado) {
+		parrilla.setValido(false);
 		parrillaServicio.guardar(parrilla);
 
 		return "redirect:listado.form";
